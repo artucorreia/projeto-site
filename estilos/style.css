@@ -23,3 +23,7 @@ h1 {
 .titulos{
     color: rgb(0, 0, 255);
 }
+
+a {
+    font-size: 14pt;
+}

@@ -18,11 +18,26 @@ main {
 }
 
 h1 {
-    font-size: 30pt;
+    font-size: 2.5em;
+    text-align: center;
 }
 
-p {
+.text {
     text-align: justify;
+    text-indent: 20px;
+}
+
+.pages {
+    text-decoration: none;
+    color: rgba(0, 153, 153, 0.89);
+}
+
+.pages:active {
+    background-color: lightgray;
+}
+
+.pages:visited {
+    color: rgb(0, 92, 92);
 }
 
 .lado {
@@ -30,11 +45,6 @@ p {
     margin-left: 40px;
 }
 
-
 .title{
-    color: rgb(0, 0, 255);
-}
-
-a {
-    text-decoration: none;
+    color: rgb(50, 50, 194);
 }
